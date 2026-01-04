@@ -99,7 +99,7 @@ from peft import PeftModel
 
 # Paths
 BASE_MODEL = "NousResearch/Llama-2-7b-chat-hf"
-LORA_MODEL = "biswaa000/llama-2-nepal-constitution-lora"
+LORA_MODEL = "biswaa000/Fine_Turning_llama-2-nepal-constitution-lora"
 
 # Load tokenizer (from LoRA repo)
 tokenizer = AutoTokenizer.from_pretrained(LORA_MODEL, trust_remote_code=True)
